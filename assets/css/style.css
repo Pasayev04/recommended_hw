@@ -61,7 +61,7 @@ h3 {
 
 
 
-#masthead {
+#head {
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -188,11 +188,11 @@ h3,
 
 
 
-#contact-form ul {
+#form ul {
     margin-bottom: 20px;
 }
 
-#contact-form li {
+#form li {
     margin-bottom: 10px;
 }
 
@@ -238,9 +238,4 @@ footer {
     background:black;
     border-top: 4px solid black;
 }
-
-
-
-
-
 
