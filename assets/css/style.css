@@ -13,63 +13,14 @@ body {
     box-sizing: border-box;
 }
 
-
- 
-
-.container {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-    clear: both;
-}
-
-   
-
-h1 h2 h3 p {
-    margin-bottom: 20px;
-}
-
-
- 
-
-p:last-child {
-    margin-bottom: 0;
-
-}
-
-
-
-h1 h2 h3 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 500;
-    
-}
-
-h1 {
-    padding-bottom: 20px;
-    font-size: 30px;
-    line-height: 49px;
-    border-bottom: 7px solid black;
-}
-
-
-
-h2
-h3 {
-    font-size: 22px;
-}
-
-
-
 #head {
-    position: fixed;
+    position: absolute;
     z-index: 99;
     width: 100%;
     margin: 0 0 30px;
     overflow: auto;
     color: #fff;
-    background:black;
-    
+    background:black;   
 }
 
 #logo {
@@ -86,6 +37,47 @@ h3 {
 }
 
 
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    clear: both;
+    margin: 0 auto;
+}
+
+   
+
+h1 h2 h3 p {
+    margin-bottom: 20px;
+}
+
+
+ 
+
+p:last-child {
+    margin-bottom: 0;
+}
+
+
+
+h1 h2 h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+
+h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 7px solid black;
+}
+
+
+
+h2
+h3 {
+    font-size: 20px;
+}
    
 nav {
     float: right;
